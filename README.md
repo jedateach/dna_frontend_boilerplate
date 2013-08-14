@@ -1,6 +1,19 @@
 # DNA Frontend Boilerplate
 
-Add this to your html:
+
+## Default breakpoints
+
+ * xsmall - base (no breakpoint)
+ * small - 30em
+ * medium - 46.875em
+ * large - 56em
+ * xlarge - 62em
+ * xxlarge - 70em
+ * xxxlarge - 80em
+ * xxxxlarge - 100em
+
+
+## CSS files to include in HTML:
 
 ```html
 <link rel="stylesheet" type="text/css" href="css/dist/xsmall.min.css" />
