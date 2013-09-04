@@ -96,7 +96,7 @@ module.exports = function(grunt) {
 	//additional watch print, and watch js
 	watch['css_print'] = {
 		files: [
-			'build/print.less',
+			global_css_dir+'/print.less',
 		],
 		tasks: [
 			'less:print',
